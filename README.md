@@ -22,7 +22,7 @@ The run-times for the refactored script for 2017 and 2018 were as follows:
 <img src="Resources/VBA_Challenge_2017.png">
 <img src="Resources/VBA_Challenge_2018.png">
 
-Comparing these sets of screenshots, I determined the refactored code runs about 0.5 seconds faster than the original code. 
+Comparing the sets of screenshots above, I determined the refactored code runs about 0.5 seconds faster than the original code. 
 
 ## Summary
 
