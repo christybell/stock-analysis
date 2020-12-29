@@ -13,7 +13,7 @@ To help explain the differences between the original and refactored scripts, let
 
 <img src="Resources/Original_Script.PNG">
 
-However, in the refactored code below, we see that the `tickerIndex` assigns the new output arrays (`tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices`) to the ticker symbol first and then loops over the rows in the dataset. This key difference enables our refactored script to run faster.
+However, in the refactored code below, we see that the `tickerIndex` variable assigns the new output arrays (`tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices`) to the ticker symbol first and then loops over the rows in the dataset. This key difference enables our refactored script to run faster.
 
 <img src="Resources/Refactored_Script.PNG">
 
