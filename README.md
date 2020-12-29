@@ -7,9 +7,9 @@ My friend Steve loves the workbook I prepared for him to help his parents analyz
 Although the original code I prepared works well for a dozen stocks, it might not work as well for thousands of stocks like Steve wants. And if it does, it may take a long time to execute the script. Therefore the purpose of this project is to refactor the existing code and see if I can make it run more efficiently by measuring its performance against the original script's performance.
 
 ## Results
-In order to make the code run more efficiently, I needed to switch the nesting order of the `for` loops. To achieve this, I first created a variable called the `tickerIndex` that accessed the correct index across the `tickers` array as well as the 3 new output arrays I created: `tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices`. Setting up the `tickerIndex` variable meant the code was able to assign the `tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices` to each ticker symbol before looping through the entire dataset. Refactoring the code in this manner allowed it to run much faster than using the original script.
+In order to make the code run more efficiently, I needed to switch the nesting order of the `for` loops. To achieve this, I first created a variable called the `tickerIndex` that accessed the correct index across the `tickers` array as well as the 3 new output arrays I created next: `tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices`. Setting up the `tickerIndex` variable meant the code was able to assign the `tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices` to each ticker symbol before looping through the entire dataset. Refactoring the code in this manner allowed it to run much faster than using the original script.
 
-To help explain the differences between the original and refactored scripts, let's take a look at the code. In the original code below, we see that we first loop through the tickers and then loop through all the rows in the dataset:
+To help explain the differences between the original and refactored scripts, let's take a look at the code. In the original code below, we see that the script first loops through the tickers and then loops through all the rows in the dataset:
 
 <img src="Resources/Original_Script.PNG">
 
