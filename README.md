@@ -17,7 +17,7 @@ However, in the refactored code below, we see that the `tickerIndex` assigns the
 
 <img src="Resources/Refactored_Script.PNG">
 
-The full workbook with original and refactored scripts can be found here: [VBA Challenge](VBA_Challenge.xlsx)
+The full workbook with original and refactored scripts can be found here: [VBA Challenge](VBA_Challenge.xlsm)
 
 ### Run-Times for the Original vs. Refactored Scripts
 
