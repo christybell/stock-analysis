@@ -11,11 +11,11 @@ In order to make the code run more efficiently, I needed to switch the nesting o
 
 To help explain the differences between the original and refactored scripts, let's take a look at the code. In the original code below, we see that we first loop through the tickers and then loop through all the rows in the dataset:
 
-<img src="Resources/Original_Script.png">
+
 
 However, in the refactored code below, we see that the `tickerIndex` loops through the new output arrays (`tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices`) first and then loops over the rows in the dataset. This key difference enables our refactored script to run faster.
 
-<img src="Resources/Refactored_Script.png">
+
 
 The full workbook with original and refactored scripts can be found here: [VBA Challenge](VBA_Challenge.xlsx)
 
